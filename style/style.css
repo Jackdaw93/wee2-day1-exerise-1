@@ -1,0 +1,27 @@
+body {
+    max-width: 950px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.list-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.list-photo img {
+    width: 175px;
+    height: 175px;
+}
